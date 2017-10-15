@@ -1,7 +1,9 @@
 Hap'psy
 =========================
 
-Projet port
+Projet porté par Magalie Peytour, Psychologue spécialisée en psychologie positive et Ilaria Montagni chercheuse en communication santé université de bordeaux. D'après une idée original de Magalie Peytour.
+Conseil et Support graphique Sébastien Bernard Psychologue social.
+Développeur : Arnaud Duforat, responsable technique chez Capgemini et Brice Collilieux, Développeur Front-end.
 
 ##Intro 
 
