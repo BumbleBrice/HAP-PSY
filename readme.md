@@ -1,6 +1,7 @@
-Happsy using ScrollReveal
-Arnaud Duforat
+Hap'psy
 =========================
+
+Projet port
 
 ##Intro 
 
@@ -13,6 +14,9 @@ Formation : pour savoir utiliser la platform, initiation à la psy positive
 Banque documentaire pour le psy sur la psy positive
 Réseau : séminaires / conférences, events (soirées, journées débat, organisées par les gens), échange pro (forum, chat)
 Partie patients : ajout d'exercices, informations dans happsy lib
+
+https://bumblebrice.github.io/HAP-PSY/
+
 
 ##Lien vers la liste des projets
 
