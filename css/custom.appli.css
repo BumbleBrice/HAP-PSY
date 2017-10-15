@@ -1,0 +1,312 @@
+.happli {
+  margin-top: 2rem;
+  background-color: rgba(255,255,255,0);
+  position: absolute;
+  z-index: 1000;
+}
+.happli a {
+  text-decoration: none;
+}
+.iphone8plus .header {
+  height: 100px;
+}
+.logo {
+  height: 150px;
+}
+.burger {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.happli h2 {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: grey;
+}
+.img-happli {
+  height: 150px;
+  width: 150px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 1rem auto;
+}
+
+.ch-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.ch-grid:after,
+.ch-item:before {
+  content: '';
+    display: table;
+}
+
+.ch-grid:after {
+  clear: both;
+}
+
+.ch-grid li {
+  width: 190px;
+  height: 170px;
+  display: inline-block;
+  margin: 10px;
+}
+.ch-item {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  cursor: default;
+  -webkit-perspective: 900px;
+  -moz-perspective: 900px;
+  -o-perspective: 900px;
+  -ms-perspective: 900px;
+  perspective: 900px;
+}
+.ch-info{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  -webkit-transform-origin: 50% 0%;
+  -moz-transform-origin: 50% 0%;
+  -o-transform-origin: 50% 0%;
+  -ms-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+.ch-info .ch-info-front {
+  box-shadow: inset 0 0 0 16px rgba(0,0,0,0.3);
+}
+.ch-info-front span {
+  position: relative;
+  top: 40%;
+  font-size: 1.3rem;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: black;
+}
+.ch-info .ch-info-back {
+  -webkit-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  -moz-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  -o-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  -ms-transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  transform: translate3d(0,0,-220px) rotate3d(1,0,0,90deg);
+  background: #000;
+  opacity: 0;
+}
+
+.ch-img-1 {
+  background: url(../img/IMG_0969.jpg);
+  background-size: cover;
+
+}
+
+.ch-img-2 {
+  background: url(../img/IMG_0970.jpg);
+  background-size: cover;
+
+}
+
+.ch-img-3 {
+  background: url(../img/IMG_0973.jpg);
+  background-size: cover;
+
+}
+
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 24px;
+  margin: 0 15px;
+  padding: 60px 0 0 0;
+  height: 110px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  text-shadow:
+    0 0 1px #fff,
+    0 1px 2px rgba(0,0,0,0.3);
+}
+
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255,255,255,0.5);
+}
+
+.ch-info p a {
+  display: block;
+  color: #fff;
+  color: rgba(255,255,255,0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.ch-info p a:hover {
+  color: #fff222;
+  color: rgba(255,242,34, 0.8);
+}
+
+.ch-item:hover .ch-info-front {
+  -webkit-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  -moz-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  -o-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  -ms-transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  transform: translate3d(0,280px,0) rotate3d(1,0,0,-90deg);
+  opacity: 0;
+}
+
+.ch-item:hover .ch-info-back {
+  -webkit-transform: rotate3d(1,0,0,0deg);
+  -moz-transform: rotate3d(1,0,0,0deg);
+  -o-transform: rotate3d(1,0,0,0deg);
+  -ms-transform: rotate3d(1,0,0,0deg);
+  transform: rotate3d(1,0,0,0deg);
+  opacity: 1;
+}
+
+.tableau {
+  margin: 1rem;
+}
+.tableau h2 {
+  margin-bottom: 1rem;
+  color: white;
+}
+.tableau p {
+  color: black;
+  font-size: 1.5rem;
+}
+.tableau p a {
+  color: black;
+  text-decoration: underline;
+}
+.tableau p a:hover {
+  color: orange;
+}
+.journal {
+  margin: 1rem;
+  color: white;
+}
+.journal h2 {
+  margin-bottom: 1rem;
+  color: white;
+}
+.journal h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+.journal form textarea {
+  margin: 0.5rem 0 0.5rem 0;
+}
+.reviews {
+  margin: 1rem;
+}
+.reviews p {
+  color: black;
+  border: solid black 2px;
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+  font-size: 1rem;
+  line-height: 22px;
+}
+.reviews p span:first-child {
+  text-decoration: underline;
+
+}
+.reviews p span:last-child {
+  color: white;
+}
+.reviews a {
+  margin-top: 1rem;
+}
+
+.container {
+  margin-top: 40px;
+  padding-top: 20px;
+}
+.vertical {
+  margin-top: -2rem;
+  position: absolute;
+  right: 0;
+  display: inline-block;
+  width: 20%;
+  height: 40px;
+  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+.vertical {
+  box-shadow: inset 0px 4px 6px #ccc;
+}
+.progress-bar {
+  box-shadow: inset 0px 4px 6px rgba(100,100,100,0.6);
+}
+
+.rdv {
+  margin-top: 3rem;
+  color: white;
+}
+.tableau h3 {
+  color: black;
+  font-size: 1rem;
+  margin: 2rem 0;
+}
+
+.tableau .col-md-9 {
+  border-left: solid black 1px;
+}
+
+.hap-exo {
+  margin: 1rem;
+  color: white;
+  font-size: 1.1rem;
+}
+.exo span:first-child {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.exo span:last-child {
+
+}
+.bonheur {
+  border: solid 3px white;
+  border-radius: 5px;
+  height: 75px;
+}
+.bonheur h4 {
+  margin-top: 1.4rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
