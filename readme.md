@@ -5,12 +5,12 @@ Projet porté par Magalie Peytour, Psychologue spécialisée en psychologie posi
 Conseil et Support graphique Sébastien Bernard Psychologue social.
 Développeur : Arnaud Duforat, responsable technique chez Capgemini et Brice Collilieux, Développeur Front-end.
 
-##Intro 
+## Intro 
 
 Ce projet est un POC de la plateforme d'Happsy, plateforme de psychologie positive.
 Il a été conçu le 14/10/2017 au WDMH (AquitHealth), hackaton de santé.
 
-##Concept
+## Concept
 
 Formation : pour savoir utiliser la platform, initiation à la psy positive
 Banque documentaire pour le psy sur la psy positive
@@ -20,6 +20,6 @@ Partie patients : ajout d'exercices, informations dans happsy lib
 https://bumblebrice.github.io/HAP-PSY/
 
 
-##Lien vers la liste des projets
+## Lien vers la liste des projets
 
 https://hhbordeaux2017.sparkboard.com/
